@@ -3,7 +3,10 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(45deg, #38a3a5, #99d98c)
+    background-image: linear-gradient(90deg, #38a3a5, #99d98c);
+    height: 100vh;
+    width: 100%;
+    background-repeat: repeat;
 }
 .cards_container{
     display: flex;
@@ -11,32 +14,57 @@ body{
     justify-content: space-around;
     height: 100vh;
     width: 100%;
-}
+}   
 
 .card{
     width: 245px;
     height: 342px;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    object-fit: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     transform-style: preserve-3d;
+    margin-right: 10px;
 }
 
-.card:hover{
-    transform: scale(1.1)
-}
 
 .card:nth-child(1){
-    background-image: url(images/SM10_PT-BR_70.png);
+    background-image: url(images/magnezone.png);
 }
 
 .card:nth-child(2){
-    background-image: url(images/SWSHP_PT-BR_SWSH291.png);
+    background-image: url(images/Metagross.png);
 }
 
 .card:nth-child(3){
-    background-image: url(images/SWSH6_PT-BR_112.png);
+    background-image: url(images/Lucario.png);
+}
+
+.card:nth-child(4){
+    background-image: url(images/volcarona.png);
+}
+
+.card:nth-child(5){
+    background-image: url(images/crobat.png);
+}
+
+.card:nth-child(6){
+    background-image: url(images/dragonite.png);
+}
+
+@media (max-width: 94em){
+    .cards_container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 52.5em){
+    .cards_container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin: 5px;
+    }
 }
