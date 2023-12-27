@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(90deg, #38a3a5, #99d98c);
+    background-image: linear-gradient(90deg, #2bf5f8, #99d98c);
     height: 100vh;
     width: 100%;
     background-repeat: repeat;
@@ -18,8 +18,9 @@ body{
 
 .card{
     width: 245px;
-    height: 342px;
-    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    height: 340px;
+    border-radius: 15px;
     transform-style: preserve-3d;
     margin-right: 10px;
 }
