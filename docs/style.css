@@ -27,11 +27,11 @@ body{
 
 
 .card:nth-child(1){
-    background-image: url(images/magnezone.png);
+    background-image: url(images/ho-oh_card.png);
 }
 
 .card:nth-child(2){
-    background-image: url(images/Metagross.png);
+    background-image: url(images/umbreon_card.png);
 }
 
 .card:nth-child(3){
@@ -39,7 +39,7 @@ body{
 }
 
 .card:nth-child(4){
-    background-image: url(images/volcarona.png);
+    background-image: url(images/pikachu_card.png);
 }
 
 .card:nth-child(5){
@@ -47,7 +47,7 @@ body{
 }
 
 .card:nth-child(6){
-    background-image: url(images/dragonite.png);
+    background-image: url(images/volcarona.png);
 }
 
 @media (max-width: 94em){
